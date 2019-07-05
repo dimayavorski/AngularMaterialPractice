@@ -1,8 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/indigo-pink.css';
 
-
-
 div.container {
   margin: 0px 40px;
 }
@@ -20,8 +18,17 @@ div.container {
   padding-bottom: 10px;
 }
 mat-radio-group mat-radio-button {
-  margin-left:5px;
+  margin-left: 5px;
 }
 .button-row button {
-  margin-right:5px;
+  margin-right: 5px;
+}
+
+ .success {
+  background-color: #5cb85c;
+  color: #fff;
+}
+ .notification simple-snack-bar {
+  font-size: 18px !important;
+  font-weight: bold;
 }

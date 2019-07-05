@@ -16,7 +16,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   Material.MatDatepickerModule,
   Material.MatNativeDateModule,
   Material.MatCheckboxModule,
-  Material.MatButtonModule
+  Material.MatButtonModule,
+  Material.MatSnackBarModule,
+  Material.MatTableModule
 ],
   exports: [
     Material.MatToolbarModule,
@@ -27,7 +29,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     Material.MatSelectModule,
     Material.MatDatepickerModule,
     Material.MatCheckboxModule,
-    Material.MatButtonModule
+    Material.MatButtonModule,
+    Material.MatSnackBarModule,
+    Material.MatTableModule
     ]
 })
 export class MaterialModule {}
