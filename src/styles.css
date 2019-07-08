@@ -32,3 +32,10 @@ mat-radio-group mat-radio-button {
   font-size: 18px !important;
   font-weight: bold;
 }
+.hide {
+  display: none;
+}
+mat-footer-row mat-footer-cell {
+  justify-content: center;
+  font-style: italic;
+}

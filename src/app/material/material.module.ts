@@ -18,7 +18,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   Material.MatCheckboxModule,
   Material.MatButtonModule,
   Material.MatSnackBarModule,
-  Material.MatTableModule
+  Material.MatTableModule,
+  Material.MatIconModule,
+  Material.MatPaginatorModule,
+  Material.MatSortModule
 ],
   exports: [
     Material.MatToolbarModule,
@@ -31,7 +34,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     Material.MatCheckboxModule,
     Material.MatButtonModule,
     Material.MatSnackBarModule,
-    Material.MatTableModule
+    Material.MatTableModule,
+    Material.MatIconModule,
+    Material.MatPaginatorModule,
+    Material.MatSortModule
     ]
 })
 export class MaterialModule {}
