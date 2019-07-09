@@ -21,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   Material.MatTableModule,
   Material.MatIconModule,
   Material.MatPaginatorModule,
-  Material.MatSortModule
+  Material.MatSortModule,
+  Material.MatDialogModule
 ],
   exports: [
     Material.MatToolbarModule,
@@ -37,7 +38,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     Material.MatTableModule,
     Material.MatIconModule,
     Material.MatPaginatorModule,
-    Material.MatSortModule
+    Material.MatSortModule,
+    Material.MatDialogModule
     ]
 })
 export class MaterialModule {}
